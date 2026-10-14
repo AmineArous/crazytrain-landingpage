@@ -1,0 +1,114 @@
+#page title
+page_title                                : "Crazy Train: Escape Game"
+
+# App Info
+ios_app_id                                : 6821377997
+
+appstore_link                             : https://apps.apple.com/app/id6821377997
+playstore_link                            :
+presskit_download_link                    :
+
+app_icon                                  : assets/appicon.png
+app_name                                  : Crazy Train
+app_price                                 : Free
+app_description                           : "An escape game aboard a runaway train. One stormy night in 1886, lightning breaks the bridge down the valley, and the night train starts rolling on its own. Make your way from the caboose to the locomotive, car by car, and stop it in time."
+
+enable_smart_app_banner                   : true
+
+
+
+# Information About Yourself
+your_name                                 : SixtyEdge
+your_link                                 : 
+your_city                                 : Paris
+email_address                             : sixtyedge@gmail.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
+youtube_username                          :
+
+
+
+# Feature List
+features                                  :
+
+  - title                                 : Five Handcrafted Scenes
+    description                           : The caboose, the game car, the dining car, the mail car and the locomotive, in the Sierra Nevada of 1886.
+    fontawesome_icon_name                 : train
+
+  - title                                 : A Runaway Train
+    description                           : No one at the controls, a storm overhead and a broken bridge ahead. Stop the train before it's too late.
+    fontawesome_icon_name                 : bolt
+
+  - title                                 : Puzzles Hidden in Every Object
+    description                           : Soot-covered windows, a game of chess, a wine cellar, stamps under a magnifying glass, wires in the dark and steam valves.
+    fontawesome_icon_name                 : puzzle-piece
+
+  - title                                 : A New Game Each Time
+    description                           : The caboose number, the chess game, the dining car password and the pipes are drawn anew for every game.
+    fontawesome_icon_name                 : dice
+
+  - title                                 : One Hint at a Time
+    description                           : A hint matched to where you are in the scene. Never the answer.
+    fontawesome_icon_name                 : lightbulb
+
+  - title                                 : First Scene Free
+    description                           : Unlock the other four with a single purchase. English and French, no account, no ads.
+    fontawesome_icon_name                 : unlock
+
+
+
+# Theme Settings
+topbar_color                              : "#121212"
+topbar_transparency                       : 0.95
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#121212"
+cover_overlay_transparency                : 0.85
+
+device_color                              : black
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#B8892E"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#F6D892"
+app_description_color                     : "#e2e8f0"
+
+feature_title_color                       : "#121212"
+feature_text_color                        : "#64748b"
+
+feature_icons_foreground_color            : "#B8892E"
+feature_icons_background_color            : "#F6EBD0"
+
+social_icons_foreground_color             : "#64748b"
+social_icons_background_color             : "#f1f5f9"
+
+footer_text_color                         : "#94a3b8"
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
